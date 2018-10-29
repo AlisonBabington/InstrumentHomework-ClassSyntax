@@ -13,9 +13,7 @@ export default class InstrumentFamilyView {
   };
 
   render(family) {
-
     const {name, description, instruments} = family;
-
     this.container.innerHTML = '';
 
     const familyName = this.createElement('h2', name);
